@@ -1,0 +1,67 @@
+img {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.hi, .name {
+  font-family: Abril Fatface;
+  color: #222 grey;
+}
+
+.hi {
+  font-size: 30px;
+}
+
+.name{
+  font-size: 50px;
+}
+.heading {
+  position: absolute;
+  top: 155px;
+  left: 300px;
+}
+
+p, ul, h1, h2, h3, h6 {
+  width:50%;
+  margin: auto;
+  font-family: Josefin Sans;
+  color: #222 grey;
+  padding: 10px;
+}
+
+h3 {
+  font-family: Merriweather;
+  font-size: 10px;
+  font-style: italic;
+  padding: 0px;
+}
+
+blockquote {
+  height: 100px;
+  margin: auto;
+  width: 50%;
+  background: grey;
+  color: white;
+  font-family: Abril Fatface;
+  font-size: 30px;
+  text-align: center;
+}
+
+.quote {
+  font-family: Abril Fatface;
+}
+
+blockquote::before {
+  content:'"'
+}
+
+hr {
+  width:50%;
+  margin: auto;
+  color: #222 grey;
+}
+
+h1, h2 {
+  font-size: 15px;
+}
